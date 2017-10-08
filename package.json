@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/trooperandz/css_modules1/issues"
   },
-  "homepage": "https://github.com/trooperandz/css_modules1#readme"
+  "homepage": "https://github.com/trooperandz/css_modules1#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0"
+  }
 }

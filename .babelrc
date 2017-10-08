@@ -1,0 +1,12 @@
+/**
+ * /.babelrc config file
+ * Note: the 'env' preset is new; replaces the old specification 'es2015, es2016' etc.
+ * By default, it has the same behavior as previous presets to compile ES2015+ to ES5
+ */
+
+{
+  "presets": [
+    "env",
+    "react"
+  ]
+}

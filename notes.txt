@@ -1,0 +1,6 @@
+git clone https://....
+cd _folder_
+npm init -y (creates pacakge.json & forces defaults without questions)
+npm install --save babel-loader babel-core babel-preset-env (used to be es2015) babel-present-react (all babel dependencies)
+touch .babelrc (create babel config file)
+
