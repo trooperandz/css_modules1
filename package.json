@@ -1,0 +1,20 @@
+{
+  "name": "css_modules1",
+  "version": "1.0.0",
+  "description": "- Just some CSS modules practice, with React.  - CSS modules allow you to scope your CSS. Say WHAT?!  That's right, you heard me!  - Use it in tandem with SASS and become a BALLER.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trooperandz/css_modules1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trooperandz/css_modules1/issues"
+  },
+  "homepage": "https://github.com/trooperandz/css_modules1#readme"
+}
