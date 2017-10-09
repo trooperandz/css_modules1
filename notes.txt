@@ -2,5 +2,14 @@ git clone https://....
 cd _folder_
 npm init -y (creates pacakge.json & forces defaults without questions)
 npm install --save babel-loader babel-core babel-preset-env (used to be es2015) babel-present-react (all babel dependencies)
+  Note: may have to install these globally if they don't resolve
 touch .babelrc (create babel config file)
+npm install --save-dev webpack webpack-dev-sever path
+touch webpack.config.js (fill in all of your setup config)
+mkdir src (folder for all of your react stuff)
+cd src
+touch index.js (entry point for app & babel)
+touch index.html (add entry div point, and js script src for app)
+mkdir dist (target location for bundle.js, which will be used to serve the app)
+add custom start command to package.json to kick off the app:
 
