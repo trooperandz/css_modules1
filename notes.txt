@@ -11,5 +11,22 @@ cd src
 touch index.js (entry point for app & babel)
 touch index.html (add entry div point, and js script src for app)
 mkdir dist (target location for bundle.js, which will be used to serve the app)
-add custom start command to package.json to kick off the app:
+add custom start command to package.json to kick off the app: "start": "blah blah"
+npm install --save react react-dom
+npm install --save express
+create the express server in server.js
+
+Sass
+  Make sure that it's installed
+  Create a /css and /scss folder in your directory
+  Run sass --watch scss:css (this tells it to compile scss files into one stylesheet in the css
+    folder, and recompile on the fly when a change is made)
+
+CSS modules
+  npm i -D css-loader style-loader
+  add the style-loader and css-loader into the webpack config file
+
+  npm i -D extract-text-webpack-plugin (text extractor to make our imported style into another
+    file instead of inline in a <style> tag)
+  var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
